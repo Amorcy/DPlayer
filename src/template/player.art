@@ -238,13 +238,6 @@
     </div>
     {{ /if }}
 </div>
-<div class="dplayer-menu">
-    {{ each options.contextmenu }}
-        <div class="dplayer-menu-item">
-            <a{{ if $value.link }} target="_blank"{{ /if }} href="{{ $value.link || 'javascript:void(0);' }}">{{ if $value.key }} {{ tran($value.key) }}{{ /if }}{{ if $value.text }} {{$value.text}}{{ /if }}</a>
-        </div>
-    {{ /each }}
-</div>
 <div class="dplayer-notice-list"></div>
 <button class="dplayer-mobile-play">
     {{@ icons.play }}
