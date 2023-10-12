@@ -39,7 +39,7 @@ module.exports = {
         strictExportPresence: true,
         rules: [
             {
-                test: /\.js$/,
+                test: /\.(js|mjs)$/,
                 use: [
                     'template-string-optimize-loader',
                     {

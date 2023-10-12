@@ -125,11 +125,6 @@
             <span class="dplayer-icon-content">{{@ icons.chromecast }}</span>
         </div>
         {{ /if }}
-        <div class="dplayer-comment">
-            <button class="dplayer-icon dplayer-comment-icon" data-balloon="{{ tran('send-danmaku') }}" data-balloon-pos="up">
-                <span class="dplayer-icon-content">{{@ icons.comment }}</span>
-            </button>
-        </div>
         {{ if options.subtitle }}
         {{ if (typeof options.subtitle.url === 'string') }}
         <div class="dplayer-subtitle-btn">
@@ -170,30 +165,6 @@
                         <div class="dplayer-toggle">
                             <input class="dplayer-toggle-setting-input" type="checkbox" name="dplayer-toggle">
                             <label for="dplayer-toggle"></label>
-                        </div>
-                    </div>
-                    <div class="dplayer-setting-item dplayer-setting-showdan">
-                        <span class="dplayer-label">{{ tran('show-danmaku') }}</span>
-                        <div class="dplayer-toggle">
-                            <input class="dplayer-showdan-setting-input" type="checkbox" name="dplayer-toggle-dan">
-                            <label for="dplayer-toggle-dan"></label>
-                        </div>
-                    </div>
-                    <div class="dplayer-setting-item dplayer-setting-danunlimit">
-                        <span class="dplayer-label">{{ tran('unlimited-danmaku') }}</span>
-                        <div class="dplayer-toggle">
-                            <input class="dplayer-danunlimit-setting-input" type="checkbox" name="dplayer-toggle-danunlimit">
-                            <label for="dplayer-toggle-danunlimit"></label>
-                        </div>
-                    </div>
-                    <div class="dplayer-setting-item dplayer-setting-danmaku">
-                        <span class="dplayer-label">{{ tran('opacity-danmaku') }}</span>
-                        <div class="dplayer-danmaku-bar-wrap">
-                            <div class="dplayer-danmaku-bar">
-                                <div class="dplayer-danmaku-bar-inner">
-                                    <span class="dplayer-thumb"></span>
-                                </div>
-                            </div>
                         </div>
                     </div>
                 </div>
