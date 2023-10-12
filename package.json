@@ -16,7 +16,6 @@
         "**/*": "prettier --write --ignore-unknown"
     },
     "files": [
-        "dist"
     ],
     "repository": {
         "url": "git+https://github.com/DIYgod/DPlayer.git",
