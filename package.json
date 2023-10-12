@@ -15,7 +15,10 @@
     "lint-staged": {
         "**/*": "prettier --write --ignore-unknown"
     },
-    "files": [],
+    "files": [
+        "dist",
+        "src"
+    ],
     "repository": {
         "url": "git+https://github.com/DIYgod/DPlayer.git",
         "type": "git"
