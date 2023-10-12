@@ -10,8 +10,7 @@
         "test": "",
         "format": "prettier \"**/*.{js,json,md}\" --write",
         "docs:dev": "vuepress dev docs",
-        "docs:build": "vuepress build docs",
-        "prepare": "husky install"
+        "docs:build": "vuepress build docs"
     },
     "lint-staged": {
         "**/*": "prettier --write --ignore-unknown"
